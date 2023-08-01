@@ -1,0 +1,50 @@
+
+././graph_resnet50_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 9
+Second partition point is : 18
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 5 times.
+
+First partition point:9
+Second partition point:18
+Total parts:18
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+
+stage1_input_time: 0.00345 ms
+stage1_inference_time: 503.002 ms
+stage1_total_time: 503.006 ms
+
+
+stage2_input_time: 1.33157 ms
+stage2_inference_time: 176.442 ms
+stage2_total_time: 177.774 ms
+
+************************************************
+
+Frame rate is: 1.98805 FPS
+Frame latency is: 680.78 ms
+
+************************************************
+
+Test passed

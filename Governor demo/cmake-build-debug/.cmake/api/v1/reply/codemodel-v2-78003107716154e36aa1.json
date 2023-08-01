@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Governor_demo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Governor_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Governor_demo-Debug-e369516b13b8d4df3582.json",
+					"name" : "Governor_demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Hp/OneDrive - UvA/Econometrics/Year 2/Resources/Semester 1/5+ Embedded Systems/Embedded dev. board project/Governor demo/cmake-build-debug",
+		"source" : "C:/Users/Hp/OneDrive - UvA/Econometrics/Year 2/Resources/Semester 1/5+ Embedded Systems/Embedded dev. board project/Governor demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

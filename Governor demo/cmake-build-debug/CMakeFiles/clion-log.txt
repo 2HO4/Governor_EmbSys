@@ -1,0 +1,4 @@
+C:\Users\Hp\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Hp/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S "C:\Users\Hp\OneDrive - UvA\Econometrics\Year 2\Resources\Semester 1\5+ Embedded Systems\Embedded dev. board project\Governor demo" -B "C:\Users\Hp\OneDrive - UvA\Econometrics\Year 2\Resources\Semester 1\5+ Embedded Systems\Embedded dev. board project\Governor demo\cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Hp/OneDrive - UvA/Econometrics/Year 2/Resources/Semester 1/5+ Embedded Systems/Embedded dev. board project/Governor demo/cmake-build-debug

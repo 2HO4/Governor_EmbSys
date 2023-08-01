@@ -1,0 +1,3 @@
+C:/Users/Hp/OneDrive - UvA/Econometrics/Year 2/Resources/Semester 1/5+ Embedded Systems/Embedded dev. board project/Governor demo/cmake-build-debug/CMakeFiles/Governor_demo.dir
+C:/Users/Hp/OneDrive - UvA/Econometrics/Year 2/Resources/Semester 1/5+ Embedded Systems/Embedded dev. board project/Governor demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Hp/OneDrive - UvA/Econometrics/Year 2/Resources/Semester 1/5+ Embedded Systems/Embedded dev. board project/Governor demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

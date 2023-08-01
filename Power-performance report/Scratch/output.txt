@@ -1,0 +1,2309 @@
+vim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 G-B-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 8
+Second partition point is : 8
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage2_input_time: 0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.280293 ms
+stage1_inference_time: 87.4344 ms
+stage1_total_time: 87.7147 ms
+
+************************************************
+
+Frame rate is: 11.4006 FPS
+Frame latency is: 87.7147 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 G-L-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 8
+Second partition point is : 8
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage2_input_time: 0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.40876 ms
+stage1_inference_time: 87.6961 ms
+stage1_total_time: 88.1048 ms
+
+************************************************
+
+Frame rate is: 11.3501 FPS
+Frame latency is: 88.1048 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 B-L-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 8
+Second partition point is : 8
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.0007833 ms
+stage1_inference_time: 124.963 ms
+stage1_total_time: 124.964 ms
+
+************************************************
+
+Frame rate is: 8.00233 FPS
+Frame latency is: 124.964 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 B-L-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 8
+Second partition point is : 8
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00077253 ms
+stage1_inference_time: 125.038 ms
+stage1_total_time: 125.039 ms
+
+************************************************
+
+Frame rate is: 7.99751 FPS
+Frame latency is: 125.039 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 G-B-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 8
+Second partition point is : 8
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+
+stage2_input_time: 0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.290898 ms
+stage1_inference_time: 89.342 ms
+stage1_total_time: 89.6329 ms
+
+************************************************
+
+Frame rate is: 11.1566 FPS
+Frame latency is: 89.6329 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 G-L-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 8
+Second partition point is : 8
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage2_input_time: 
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.290246 ms
+stage1_inference_time: 89.5872 ms
+stage1_total_time: 89.8775 ms
+
+************************************************
+
+Frame rate is: 11.1263 FPS
+Frame latency is: 89.8775 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 B-G-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 8
+Second partition point is : 8
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage2_input_time: 0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00084581 ms
+stage1_inference_time: 124.825 ms
+stage1_total_time: 124.826 ms
+
+************************************************
+
+Frame rate is: 8.01114 FPS
+Frame latency is: 124.826 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 B-L-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 8
+Second partition point is : 8
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00075709 ms
+stage1_inference_time: 124.979 ms
+stage1_total_time: 124.98 ms
+
+************************************************
+
+Frame rate is: 8.00127 FPS
+Frame latency is: 124.98 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 L-G-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 8
+Second partition point is : 8
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00128163 ms
+stage1_inference_time: 405.527 ms
+stage1_total_time: 405.528 ms
+
+************************************************
+
+Frame rate is: 2.46592 FPS
+Frame latency is: 405.528 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 8 8 L-B-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 8
+Second partition point is : 8
+Order is : L-B-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:8
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00122374 ms
+stage1_inference_time: 405.915 ms
+stage1_total_time: 405.916 ms
+
+************************************************
+
+Frame rate is: 2.46356 FPS
+Frame latency is: 405.916 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 G-B-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 4
+Second partition point is : 8
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.754276 ms
+stage1_inference_time: 41.1661 ms
+stage1_total_time: 41.9204 ms
+
+
+stage2_input_time: 0.0770037 ms
+stage2_inference_time: 82.0294 ms
+stage2_total_time: 82.1064 ms
+
+************************************************
+
+Frame rate is: 12.1793 FPS
+Frame latency is: 124.027 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 G-B-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 4
+Second partition point is : 8
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.814442 ms
+stage1_inference_time: 41.0756 ms
+stage1_total_time: 41.89 ms
+
+
+stage2_input_time: 0.07435 ms
+stage2_inference_time: 82.2862 ms
+stage2_total_time: 82.3605 ms
+
+************************************************
+
+Frame rate is: 12.1417 FPS
+Frame latency is: 124.251 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 G-L-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 4
+Second partition point is : 8
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.474689 ms
+stage1_inference_time: 38.4934 ms
+stage1_total_time: 38.9681 ms
+
+
+stage2_input_time: 0.14558 ms
+stage2_inference_time: 150.589 ms
+stage2_total_time: 150.734 ms
+
+************************************************
+
+Frame rate is: 6.63419 FPS
+Frame latency is: 189.703 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 B-G-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00135372 ms
+stage1_inference_time: 60.8398 ms
+stage1_total_time: 60.8412 ms
+
+
+stage2_input_time: 0.381083 ms
+stage2_inference_time: 63.8599 ms
+stage2_total_time: 64.241 ms
+
+************************************************
+
+Frame rate is: 15.5664 FPS
+Frame latency is: 125.082 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 B-G-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00366623 ms
+stage1_inference_time: 60.1975 ms
+stage1_total_time: 60.2012 ms
+
+
+stage2_input_time: 0.388353 ms
+stage2_inference_time: 63.8748 ms
+stage2_total_time: 64.2632 ms
+
+************************************************
+
+Frame rate is: 15.561 FPS
+Frame latency is: 124.464 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 B-L-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00114506 ms
+stage1_inference_time: 46.0759 ms
+stage1_total_time: 46.0771 ms
+
+
+stage2_input_time: 0.139253 ms
+stage2_inference_time: 152.054 ms
+stage2_total_time: 152.193 ms
+
+************************************************
+
+Frame rate is: 6.57059 FPS
+Frame latency is: 198.27 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 L-G-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00201628 ms
+stage1_inference_time: 271.457 ms
+stage1_total_time: 271.459 ms
+
+
+stage2_input_time: 195.193 ms
+stage2_inference_time: 74.2781 ms
+stage2_total_time: 269.471 ms
+
+************************************************
+
+Frame rate is: 3.6838 FPS
+Frame latency is: 540.93 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 L-G-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00196624 ms
+stage1_inference_time: 270.613 ms
+stage1_total_time: 270.615 ms
+
+
+stage2_input_time: 196.418 ms
+stage2_inference_time: 72.343 ms
+stage2_total_time: 268.761 ms
+
+************************************************
+
+Frame rate is: 3.69529 FPS
+Frame latency is: 539.375 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 L-B-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : L-B-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00190171 ms
+stage1_inference_time: 260.938 ms
+stage1_total_time: 260.94 ms
+
+
+stage2_input_time: 178.909 ms
+stage2_inference_time: 80.2384 ms
+stage2_total_time: 259.148 ms
+
+************************************************
+
+Frame rate is: 3.83229 FPS
+Frame latency is: 520.088 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 4 8 L-B-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 4
+Second partition point is : 8
+Order is : L-B-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:4
+Second partition point:8
+Total parts:8
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00195376 ms
+stage1_inference_time: 260.809 ms
+stage1_total_time: 260.811 ms
+
+
+stage2_input_time: 178.886 ms
+stage2_inference_time: 80.1432 ms
+stage2_total_time: 259.029 ms
+
+************************************************
+
+Frame rate is: 3.83419 FPS
+Frame latency is: 519.84 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 G-B-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 3
+Second partition point is : 6
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.790668 ms
+stage1_inference_time: 36.3474 ms
+stage1_total_time: 37.138 ms
+
+
+stage2_input_time: 0.0812442 ms
+stage2_inference_time: 79.0701 ms
+stage2_total_time: 79.1513 ms
+
+
+stage3_input_time: 29.8749 ms
+stage3_inference_time: 48.9238 ms
+stage3_total_time: 78.7987 ms
+
+************************************************
+
+Frame rate is: 12.634 FPS
+Frame latency is: 195.088 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 G-L-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 3
+Second partition point is : 6
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.566212 ms
+stage1_inference_time: 33.7836 ms
+stage1_total_time: 34.3498 ms
+
+
+stage2_input_time: 0.164767 ms
+stage2_inference_time: 138.644 ms
+stage2_total_time: 138.808 ms
+
+
+stage3_input_time: 110.001 ms
+stage3_inference_time: 27.6325 ms
+stage3_total_time: 137.634 ms
+
+************************************************
+
+Frame rate is: 7.20418 FPS
+Frame latency is: 310.792 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 G-L-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 3
+Second partition point is : 6
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.57044 ms
+stage1_inference_time: 33.6188 ms
+stage1_total_time: 34.1893 ms
+
+
+stage2_input_time: 0.169628 ms
+stage2_inference_time: 138.703 ms
+stage2_total_time: 138.872 ms
+
+
+stage3_input_time: 110.014 ms
+stage3_inference_time: 27.6437 ms
+stage3_total_time: 137.658 ms
+
+************************************************
+
+Frame rate is: 7.20086 FPS
+Frame latency is: 310.72 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 B-G-L                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 3
+Second partition point is : 6
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.00157121 ms
+stage1_inference_time: 47.4444 ms
+stage1_total_time: 47.446 ms
+
+
+stage2_input_time: 0.350633 ms
+stage2_inference_time: 57.4853 ms
+stage2_total_time: 57.836 ms
+
+
+stage3_input_time: 0.196364 ms
+stage3_inference_time: 61.0694 ms
+stage3_total_time: 61.2658 ms
+
+************************************************
+
+Frame rate is: 16.3223 FPS
+Frame latency is: 166.548 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 B-L-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 3
+Second partition point is : 6
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.0013287 ms
+stage1_inference_time: 46.5433 ms
+stage1_total_time: 46.5446 ms
+
+
+stage2_input_time: 0.163599 ms
+stage2_inference_time: 117.635 ms
+stage2_total_time: 117.799 ms
+
+
+stage3_input_time: 81.421 ms
+stage3_inference_time: 35.4326 ms
+stage3_total_time: 116.854 ms
+
+************************************************
+
+Frame rate is: 8.48906 FPS
+Frame latency is: 281.197 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 L-G-B                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 3
+Second partition point is : 6
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.00160707 ms
+stage1_inference_time: 232.912 ms
+stage1_total_time: 232.914 ms
+
+
+stage2_input_time: 162.95 ms
+stage2_inference_time: 68.3184 ms
+stage2_total_time: 231.268 ms
+
+
+stage3_input_time: 203.327 ms
+stage3_inference_time: 27.1369 ms
+stage3_total_time: 230.464 ms
+
+************************************************
+
+Frame rate is: 4.29344 FPS
+Frame latency is: 694.645 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_alexnet_all_pipe_sync 3 6 L-B-G                                                                                                                        
+
+./graph_alexnet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 3
+Second partition point is : 6
+Order is : L-B-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:3
+Second partition point:6
+Total parts:8
+
+
+Running Inference ... 
+
+stage1_input_time: 0.00160248 ms
+stage1_inference_time: 263.807 ms
+stage1_total_time: 263.808 ms
+
+
+stage2_input_time: 149.478 ms
+stage2_inference_time: 112.764 ms
+stage2_total_time: 262.243 ms
+
+
+stage3_input_time: 226.561 ms
+stage3_inference_time: 34.8892 ms
+stage3_total_time: 261.45 ms
+
+************************************************
+
+Frame rate is: 3.79063 FPS
+Frame latency is: 787.501 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh gr                                                                                                                                                           
+graph_alexnet                           graph_googlenet_all_pipe_sync.o         graph_mobilenet                         graph_resnet_v2_50.o                    graph_ssd_mobilenet
+graph_alexnet.o                         graph_inception_resnet_v1               graph_mobilenet.o                       graph_resnext50                         graph_ssd_mobilenet.o
+graph_alexnet_all_pipe_sync             graph_inception_resnet_v1.o             graph_mobilenet_all_pipe_sync           graph_resnext50.o                       graph_vgg16
+graph_alexnet_all_pipe_sync.o           graph_inception_resnet_v2               graph_mobilenet_all_pipe_sync.o         graph_shufflenet                        graph_vgg16.o
+graph_alexnet_all_pipe_sync_power       graph_inception_resnet_v2.o             graph_mobilenet_v2                      graph_shufflenet.o                      graph_vgg19
+graph_alexnet_all_pipe_sync_power.o     graph_inception_v3                      graph_mobilenet_v2.o                    graph_squeezenet                        graph_vgg19.o
+graph_deepspeech_v0_4_1                 graph_inception_v3.o                    graph_resnet12                          graph_squeezenet.o                      graph_vgg_vdsr
+graph_deepspeech_v0_4_1.o               graph_inception_v4                      graph_resnet12.o                        graph_squeezenet_all_pipe_sync          graph_vgg_vdsr.o
+graph_edsr                              graph_inception_v4.o                    graph_resnet50                          graph_squeezenet_all_pipe_sync.o        graph_yolov3
+graph_edsr.o                            graph_lenet                             graph_resnet50.o                        graph_squeezenet_v1_1                   graph_yolov3.o
+graph_googlenet                         graph_lenet.o                           graph_resnet50_all_pipe_sync            graph_squeezenet_v1_1.o
+graph_googlenet.o                       graph_mnist                             graph_resnet50_all_pipe_sync.o          graph_srcnn955
+graph_googlenet_all_pipe_sync           graph_mnist.o                           graph_resnet_v2_50                      graph_srcnn955.o
+kvim3:/data/local/Working_dir # ./running.sh graph_go                                                                                                                                                     
+graph_googlenet                  graph_googlenet.o                graph_googlenet_all_pipe_sync    graph_googlenet_all_pipe_sync.o
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_a                                                                                                                                            
+graph_googlenet_all_pipe_sync    graph_googlenet_all_pipe_sync.o
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 13 13 G-B-L                                                                                                                    
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 13
+Second partition point is : 13
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:13
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage2_inference_time: 00 ms ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.275763 ms
+stage1_inference_time: 95.4438 ms
+stage1_total_time: 95.7196 ms
+
+************************************************
+
+Frame rate is: 10.4472 FPS
+Frame latency is: 95.7196 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 13 13 B-G-L                                                                                                                    
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 13
+Second partition point is : 13
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:13
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00085581 ms
+stage1_inference_time: 126.642 ms
+stage1_total_time: 126.643 ms
+
+************************************************
+
+Frame rate is: 7.89623 FPS
+Frame latency is: 126.643 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 13 13 L-G-B                                                                                                                    
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 13
+Second partition point is : 13
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:13
+Second partition point:13
+Total parts:13
+
+
+
+stage2_input_time: 0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00128671 ms
+stage1_inference_time: 755.629 ms
+stage1_total_time: 755.631 ms
+
+************************************************
+
+Frame rate is: 1.3234 FPS
+Frame latency is: 755.631 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 13 13 L-G-B                                                                                                                    
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 13
+Second partition point is : 13
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:13
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 
+
+stage2_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+0 ms
+stage2_inference_time: 0 ms
+stage2_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00125543 ms
+stage1_inference_time: 756.116 ms
+stage1_total_time: 756.117 ms
+
+************************************************
+
+Frame rate is: 1.32255 FPS
+Frame latency is: 756.117 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 G-B-L                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 7
+Second partition point is : 13
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.553244 ms
+stage1_inference_time: 59.6446 ms
+stage1_total_time: 60.1978 ms
+
+
+stage2_input_time: 6.9534 ms
+stage2_inference_time: 53.0261 ms
+stage2_total_time: 59.9795 ms
+
+************************************************
+
+Frame rate is: 16.6119 FPS
+Frame latency is: 120.177 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 G-L-B                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 7
+Second partition point is : 13
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.470766 ms
+stage1_inference_time: 56.7233 ms
+stage1_total_time: 57.1941 ms
+
+
+stage2_input_time: 0.224052 ms
+stage2_inference_time: 226.941 ms
+stage2_total_time: 227.165 ms
+
+************************************************
+
+Frame rate is: 4.40208 FPS
+Frame latency is: 284.359 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 G-L-B                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 7
+Second partition point is : 13
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.415142 ms
+stage1_inference_time: 57.3952 ms
+stage1_total_time: 57.8103 ms
+
+
+stage2_input_time: 0.22269 ms
+stage2_inference_time: 226.754 ms
+stage2_total_time: 226.977 ms
+
+************************************************
+
+Frame rate is: 4.40573 FPS
+Frame latency is: 284.787 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 B-G-L                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 7
+Second partition point is : 13
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00145747 ms
+stage1_inference_time: 91.8161 ms
+stage1_total_time: 91.8175 ms
+
+
+stage2_input_time: 17.8257 ms
+stage2_inference_time: 73.7439 ms
+stage2_total_time: 91.5696 ms
+
+************************************************
+
+Frame rate is: 10.8912 FPS
+Frame latency is: 183.387 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 B-L-G                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 7
+Second partition point is : 13
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00140046 ms
+stage1_inference_time: 84.403 ms
+stage1_total_time: 84.4044 ms
+
+
+stage2_input_time: 0.218852 ms
+stage2_inference_time: 228.815 ms
+stage2_total_time: 229.034 ms
+
+************************************************
+
+Frame rate is: 4.36616 FPS
+Frame latency is: 313.439 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 B-L-G                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 7
+Second partition point is : 13
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00148752 ms
+stage1_inference_time: 84.5809 ms
+stage1_total_time: 84.5824 ms
+
+
+stage2_input_time: 0.22715 ms
+stage2_inference_time: 228.319 ms
+stage2_total_time: 228.546 ms
+
+************************************************
+
+Frame rate is: 4.37548 FPS
+Frame latency is: 313.129 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 L-G-B                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 7
+Second partition point is : 13
+Order is : L-G-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00174042 ms
+stage1_inference_time: 534.883 ms
+stage1_total_time: 534.885 ms
+
+
+stage2_input_time: 459.608 ms
+stage2_inference_time: 70.8471 ms
+stage2_total_time: 530.455 ms
+
+************************************************
+
+Frame rate is: 1.86956 FPS
+Frame latency is: 1065.34 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 7 13 L-B-G                                                                                                                     
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 7
+Second partition point is : 13
+Order is : L-B-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:7
+Second partition point:13
+Total parts:13
+
+
+
+stage3_input_time: 0 ms
+stage3_inference_time: 0 ms
+stage3_total_time: 0 ms
+
+Running Inference ... 
+
+stage1_input_time: 0.00181539 ms
+stage1_inference_time: 534.959 ms
+stage1_total_time: 534.96 ms
+
+
+stage2_input_time: 484.969 ms
+stage2_inference_time: 45.0818 ms
+stage2_total_time: 530.051 ms
+
+************************************************
+
+Frame rate is: 1.8693 FPS
+Frame latency is: 1065.01 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 5 9 G-B-L                                                                                                                      
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 5
+Second partition point is : 9
+Order is : G-B-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:5
+Second partition point:9
+Total parts:13
+
+
+Running Inference ... 
+
+stage1_input_time: 0.685708 ms
+stage1_inference_time: 47.621 ms
+stage1_total_time: 48.3067 ms
+
+
+stage2_input_time: 0.125315 ms
+stage2_inference_time: 91.0661 ms
+stage2_total_time: 91.1914 ms
+
+
+stage3_input_time: 0.24471 ms
+stage3_inference_time: 131.904 ms
+stage3_total_time: 132.148 ms
+
+************************************************
+
+Frame rate is: 7.56725 FPS
+Frame latency is: 271.647 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 5 9 G-L-B                                                                                                                      
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : CL
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer
+Partition point is : 5
+Second partition point is : 9
+Order is : G-L-B
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:5
+Second partition point:9
+Total parts:13
+
+
+Running Inference ... 
+
+stage1_input_time: 0.541097 ms
+stage1_inference_time: 45.369 ms
+stage1_total_time: 45.9101 ms
+
+
+stage2_input_time: 0.306595 ms
+stage2_inference_time: 179.954 ms
+stage2_total_time: 180.261 ms
+
+
+stage3_input_time: 148.83 ms
+stage3_inference_time: 29.7998 ms
+stage3_total_time: 178.63 ms
+
+************************************************
+
+Frame rate is: 5.54751 FPS
+Frame latency is: 404.801 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 5 9 B-G-L                                                                                                                      
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 5
+Second partition point is : 9
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:5
+Second partition point:9
+Total parts:13
+
+
+Running Inference ... 
+
+stage1_input_time: 0.00132164 ms
+stage1_inference_time: 79.0142 ms
+stage1_total_time: 79.0155 ms
+
+
+stage2_input_time: 29.1594 ms
+stage2_inference_time: 49.5692 ms
+stage2_total_time: 78.7286 ms
+
+
+stage3_input_time: 0.258613 ms
+stage3_inference_time: 136.179 ms
+stage3_total_time: 136.438 ms
+
+************************************************
+
+Frame rate is: 7.32934 FPS
+Frame latency is: 294.182 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 5 9 B-G-L                                                                                                                      
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 5
+Second partition point is : 9
+Order is : B-G-L
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:5
+Second partition point:9
+Total parts:13
+
+
+Running Inference ... 
+
+stage1_input_time: 0.00152461 ms
+stage1_inference_time: 79.2004 ms
+stage1_total_time: 79.202 ms
+
+
+stage2_input_time: 30.5255 ms
+stage2_inference_time: 48.2353 ms
+stage2_total_time: 78.7608 ms
+
+
+stage3_input_time: 0.264605 ms
+stage3_inference_time: 136.28 ms
+stage3_total_time: 136.544 ms
+
+************************************************
+
+Frame rate is: 7.32363 FPS
+Frame latency is: 294.507 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 5 9 B-L-G                                                                                                                      
+
+./graph_googlenet_all_pipe_sync
+
+Threads : 4
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : transfer_wait
+Partition point is : 5
+Second partition point is : 9
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 100 times.
+
+First partition point:5
+Second partition point:9
+Total parts:13
+
+
+Running Inference ... 
+
+stage1_input_time: 0.00159088 ms
+stage1_inference_time: 115.249 ms
+stage1_total_time: 115.25 ms
+
+
+stage2_input_time: 3.00861 ms
+stage2_inference_time: 111.919 ms
+stage2_total_time: 114.927 ms
+
+
+stage3_input_time: 52.2892 ms
+stage3_inference_time: 62.0594 ms
+stage3_total_time: 114.349 ms
+
+************************************************
+
+Frame rate is: 8.67677 FPS
+Frame latency is: 344.526 ms
+
+************************************************
+
+Test passed
+kvim3:/data/local/Working_dir # ./running.sh graph_googlenet_all_pipe_sync 5 9 B-L-G                                                                                                                      
+
+
