@@ -1,4 +1,4 @@
-# Embedded System Project Readme
+# Embedded System Project
 
 ## Table of Contents
 1. [Power-Performance Characterisation analysis](#power-performance-characterisation-analysis)
